@@ -1,0 +1,91 @@
+.hero {
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #7c3aed
+    
+  );
+  background-image: url(/grammarsimplified-sonali//src/assets/hero_img);;
+
+  color: white;
+  min-height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  min-height: 100vh;
+
+  background:
+    linear-gradient(
+      rgba(79, 70, 229, 0.7),
+      rgba(124, 58, 237, 0.7)
+    ),
+    url("/hero-image.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  color: #facc15;
+  margin-top: 10px;
+}
+
+.hero-text {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn {
+  padding: 14px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: white;
+  color: #4f46e5;
+}
+
+.btn-secondary {
+  border: 1px solid white;
+  color: white;
+}
+
+@media (max-width:768px) {
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+}

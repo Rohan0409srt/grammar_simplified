@@ -1,0 +1,29 @@
+.social-section {
+  padding: 100px 20px;
+}
+
+.social-grid {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+.social-card {
+  background: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #334155;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,.08);
+}
+
+@media(max-width:768px){
+  .social-grid{
+    grid-template-columns: 1fr;
+  }
+}
